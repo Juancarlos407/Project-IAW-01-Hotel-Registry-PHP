@@ -56,9 +56,7 @@ Quadruple
 
 2.8. All function/s have to show a message in the screen with one of the labels bellow:
 
-a) Control label: correct
-
-b) Control label: incorrect
+Control label: correct / Control label: incorrect
 
 
 Puedes Probar [Aquí](https://rawgit.com/)
