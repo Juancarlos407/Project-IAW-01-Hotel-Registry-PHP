@@ -12,27 +12,15 @@ Este proyecto está destinado a crear un form que es validado, escrito en códig
 
 1.4.text controls to input in the system:
 
-Client name
-Client surname
-Age 
-Email
-Country
-Check in
-Check out
-Deposit
+Client name / Client surname / Age / Email / Country / Check in / Check out / Deposit
 
 1.5. Option controls to input:
 
-Female
-Male
+Female / Male
 
 1.6. Select control to input:
 
-Single
-King size
-Double
-Triple
-Quadruple
+Single / King size / Double / Triple / Quadruple
 
 1.7. Checkbox control to accept the data protection policy
 
@@ -57,7 +45,6 @@ Quadruple
 2.8. All function/s have to show a message in the screen with one of the labels bellow:
 
 Control label: correct / Control label: incorrect
-
 
 Puedes Probar [Aquí](https://rawgit.com/)
 
