@@ -1,4 +1,4 @@
-# ProjecteProjecte-IAW-01-Hotel-Registry-PHP
+# Projecte-IAW-01-Hotel-Registry-PHP
 
 Este proyecto está destinado a crear un form que es validado, escrito en código php y gestionado desde un servidor web.
 
