@@ -46,6 +46,8 @@ Single / King size / Double / Triple / Quadruple
 
 Control label: correct / Control label: incorrect
 
+## Para hacer comprobaciones:
+
 Puedes Probar [Aquí](https://rawgit.com/)
 
 HTML validado [Aquí](https://validator.w3.org)
