@@ -82,7 +82,7 @@
 
 			<br>
 			<p>
-			<label for="policy">*I accept the <a href="https://www.websiteplanet.com/es/blog/haz-que-tu-politica-de-privacidad-cumpla-con-el-gdpr/">data protection policy</a></label>
+			<label for="policy">*I accept the <a href="www.https://github.com/Juancarlos407/Projecte-IAW-01-Hotel-Registry-PHP">data protection policy</a></label>
 			<input type="checkbox" name="policy" required>
 			<input type="submit" value="submit">
 		</form>
