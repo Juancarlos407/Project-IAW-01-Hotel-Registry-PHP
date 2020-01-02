@@ -2,7 +2,7 @@
 
 Este proyecto está destinado a crear un form que es validado escrito en código php gestionado desde un servidor web.
 
-##La página cuenta con un archivo clientForm.php con los siguientes contenidos:
+## La página cuenta con un archivo clientForm.php con los siguientes contenidos:
 
 1.1. Window title with the hotel name
 
@@ -38,7 +38,7 @@ Quadruple
 
 2. A form control that includes all input data controls in the previous point and sends the page to a formValidation.php file when the user click on the submit button. Using the right method to not showing all parameters in the url.
 
-##Y otro archivo formValidation.php que se encarga de:
+## Y otro archivo formValidation.php que se encarga de:
 
 3.1. All controls are compulsory. 
 
