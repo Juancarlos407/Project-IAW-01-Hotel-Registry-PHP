@@ -1,13 +1,13 @@
 <html>
 
-	<head>
-  <meta charset="UTF-8"> <!--definimos la codificación de la página-->
-  <meta name="Description" content="Author: Juan Carlos Ureña Fandos, Category: Hotels"> <!--descripción de la página para el buscador-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Balearic Hotel Fandos Hotel</title>
-	</head>
+<head>
+                        <meta charset="UTF-8"> <!--definimos la codificación de la página-->
+                        <meta name="Description" content="Author: Juan Carlos Ureña Fandos, Category: Hotels"> <!--descripción de la página para el buscador-->
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Balearic Hotel Fandos Hotel</title>
+</head>
 
-		<body>
+<body>
 			<h1>
 			Balearic Hotel Fandos Hotel *****
 			</h1>
@@ -16,7 +16,7 @@
 			Register to become a client
 			</h1>
 
-		<form action="formValidation.php" method="POST">
+		        <form action="formValidation.php" method="POST">
 			<br>
 			<label for="name">Name&nbsp&nbsp</label>
 			<br>
@@ -42,7 +42,7 @@
 			<br>
 			<input type="text" name="country">
 
-		  <br>
+		        <br>
 			<label for="deposit">Deposit</label>
 			<br>
 			<input type="number" id"€" name"deposit" min="10" max="1000">
@@ -85,7 +85,7 @@
 			<label for="policy">*I accept the <a href="www.https://github.com/Juancarlos407/Projecte-IAW-01-Hotel-Registry-PHP">data protection policy</a></label>
 			<input type="checkbox" name="policy" required>
 			<input type="submit" value="submit">
-		</form>
 
-	</body>
+</form>
+</body>
 </html>
