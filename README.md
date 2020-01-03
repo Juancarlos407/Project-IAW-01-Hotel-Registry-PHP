@@ -42,9 +42,7 @@ Single / King size / Double / Triple / Quadruple
 
 2.7. Show the deposit in € and £ currency. To convert euros into pounds multiply by 1,17.
 
-2.8. All function/s have to show a message in the screen with one of the labels bellow:
-
-Control label: correct / Control label: incorrect
+2.8. All functions show a message in the screen with a control label.
 
 ## Para hacer comprobaciones:
 
