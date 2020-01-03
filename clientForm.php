@@ -1,10 +1,10 @@
 <html>
 
 <head>
-                        <meta charset="UTF-8"> <!--definimos la codificación de la página-->
-                        <meta name="Description" content="Author: Juan Carlos Ureña Fandos, Category: Hotels"> <!--descripción de la página para el buscador-->
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>Balearic Hotel Fandos Hotel</title>
+      <meta charset="UTF-8"> <!--definimos la codificación de la página-->
+      <meta name="Description" content="Author: Juan Carlos Ureña Fandos, Category: Hotels"> <!--descripción de la página para el buscador-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Balearic Hotel Fandos Hotel</title>
 </head>
 
 <body>
@@ -16,9 +16,10 @@
 			Register to become a client
 			</h1>
 
-		        <form action="formValidation.php" method="POST">
+		  <form action="formValidation.php" method="POST"> <!--Utilizamos POST para ocultar los datos en la URL-->
 			<br>
-			<label for="name">Name&nbsp&nbsp</label>
+
+			<label for="name">Name</label>
 			<br>
 			<input type="text" name="name">
 
@@ -42,10 +43,10 @@
 			<br>
 			<input type="text" name="country">
 
-		        <br>
-			<label for="deposit">Deposit</label>
+		  <br>
+			<label for="amount">Amount</label>
 			<br>
-			<input type="number" id"€" name"deposit" min="10" max="1000">
+			<input type="number" name"amount" min="10" max="1000" id"€">
 
 			<br>
 			<p>
@@ -64,9 +65,8 @@
 			<p>
 			<label for="gender">Gender</label>
 			<br>
-			<select name="gender" multiple>
-			<option value="male">Male</option>
-			<option value="female">Female</option>
+      <input type = "radio" name = "gender" value = "female">Female
+      <input type = "radio" name = "gender" value = "male">Male
 			</select>
 
 			<br>
@@ -82,7 +82,7 @@
 
 			<br>
 			<p>
-			<label for="policy">*I accept the <a href="">data protection policy</a></label>
+			<label for="policy">*I accept the <a href="dataPolicy.php">data protection policy</a></label>
 			<input type="checkbox" name="policy" required>
 			<input type="submit" value="submit">
 
