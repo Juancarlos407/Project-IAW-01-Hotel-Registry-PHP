@@ -47,7 +47,3 @@ Single / King size / Double / Triple / Quadruple
 ## Para hacer comprobaciones:
 
 Puedes Probar la web [Aquí](https://fandoshotel.000webhostapp.com/clientForm.php)
-
-HTML validado [Aquí](https://validator.w3.org)
-
-PHP validado [Aquí](https://phpcodechecker.com/)
