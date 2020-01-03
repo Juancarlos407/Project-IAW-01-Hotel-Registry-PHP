@@ -9,6 +9,7 @@
     $gender=['gender'];
     $room=['room'];
     $b=100;
+    $str = $_POST['surname'];
 
     // Pendienetes de trabajo
     $checkin=['checkin'];
@@ -17,21 +18,16 @@
 
         if(empty($name)){
         	echo "Name is compulsory, please fill it correctly</br>";
-        }elseif (str_word_count($surname,0) == 2) {
-          echo "dos palabras";
         }else{
         	echo "Name control correct: $name </br>";
         }
-
-    // Pendienetes de trabajo
-        if(empty($surname)){
-          echo "Surname is compulsory, please fill it correctly</br>";
+        if(empty($_POST['surname'])){
+          echo "Surnames is compulsory, please fill it correctly</br>";
+        }elseif (str_word_count($str) == 2) {
+          echo "Surnames control correct: $surname </br>";
         }else{
-          echo "Surname control correct: $surname </br>";
+          echo "Surnames needs two words, please fill it correctly</br>";
         }
-
-
-
         if(empty($age)){
           echo "Age is compulsory, please fill it correctly</br>";
         }else{
@@ -57,6 +53,16 @@
         }else {
            echo "Room control correct, good choice</br>";
         }
+        //La cantidad debe ser mayor a 100
+        if (($_POST['subject']) < $b) {
+           echo "Amount has to be greather than 100€</br>";
+        }else {
+           echo "Amount control correct, minimum amount reached</br>";
+        }
+
+
+
+
 
         //Checking no funciona bien
         if (empty($_POST["checkin"])) {
@@ -73,12 +79,7 @@
           echo "checkin control correct, good choice</br>";
         }
 
-        //La cantidad debe ser mayor a 100
-        if (($_POST['subject']) < $b) {
-           echo "Amount has to be greather than 100€</br>";
-        }else {
-           echo "Amount control correct, minimum amount reached</br>";
-        }
+
 
 
 

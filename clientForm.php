@@ -17,16 +17,16 @@
 			</h1>
 
 		  <form action="formValidation.php" method="POST"> <!--Utilizamos POST para ocultar los datos en la URL-->
-			<br>
 
+      <br>
 			<label for="name">Name</label>
 			<br>
 			<input type="text" name="name">
 
 			<br>
-			<label for="surname">Surname</label>
+			<label for="surname">Surnames</label>
 			<br>
-			<input type="text" name="surname">
+			<input type="text" name="surname" id="surname">
 
 			<br>
 			<label for="age">Age</label>
@@ -42,6 +42,7 @@
 			<label for="country">Country</label>
 			<br>
 			<input type="text" name="country">
+
 		  <br>
 			<label for="amount">Amount</label>
 			<br>
@@ -65,13 +66,6 @@
 			<br>
 			<input type="date" id="checkout" name"checkout" value="2020-01-02"
 			min="2020-01-02" max"2020-12-31">
-
-
-
-
-
-
-
 
 
 

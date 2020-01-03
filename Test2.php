@@ -1,15 +1,16 @@
 <?php
 
-$b=100;
-echo $_GET['subject'];
+echo $_POST['name'];
 
-//La cantidad debe ser mayor a 100
-if (($_GET['subject']) < $b) {
-   echo "Amount has to be greather than 100€</br>";
-}else {
-   echo "Amount control correct, minimum amount reached</br>";
+$str = $_POST['name'];
+echo str_word_count($str);
+
+if(empty($_POST['name'])){
+  echo "Vacio</br>";
+}elseif (str_word_count($str) == 2) {
+  echo "Dos palabras</br>";
+}else{
+  echo "Mal</br>";
 }
-
-
 
 ?>
