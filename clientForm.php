@@ -42,24 +42,39 @@
 			<label for="country">Country</label>
 			<br>
 			<input type="text" name="country">
-
 		  <br>
 			<label for="amount">Amount</label>
 			<br>
-			<input type="number" name"amount" min="10" max="1000" id"€">
-
+      <input type="number" name="subject" id="subject">
 			<br>
 			<p>
+
+
+
+
+<!--Pendientes de trabajo-->
+
 			<label for="checkin">Check in</label>
 			<br>
-			<input type="date" id="chekin" name"chekin" value="2020-01-01"
-			min="2020-01-01" max"2020-12-31" required>
+			<input type="date" id="checkin" name"checkin" value="2020-01-01"
+			min="2020-01-01" max"2020-12-31">
 
 			<br>
+
 			<label for="checkout">Check out</label>
 			<br>
 			<input type="date" id="checkout" name"checkout" value="2020-01-02"
 			min="2020-01-02" max"2020-12-31">
+
+
+
+
+
+
+
+
+
+
 
 			<br>
 			<p>
