@@ -40,7 +40,7 @@ Single / King size / Double / Triple / Quadruple
 
 2.6. Deposit has to be greater than 100 ok
 
-2.7. Show the deposit in € and £ currency. To convert euros into pounds multiply by 1,17. //falta
+2.7. Show the deposit in € and £ currency. To convert euros into pounds multiply by 1,17. ok
 
 2.8. All functions show a message in the screen with a control label. ok
 
