@@ -10,7 +10,7 @@ Este proyecto está destinado a crear un form que es validado, escrito en códig
 
 1.3. Title in the <body> section
 
-1.4.text controls to input in the system:
+1.4. text controls to input in the system:
 
 Client name / Client surname / Age / Email / Country / Check in / Check out / Deposit
 
@@ -24,7 +24,7 @@ Single / King size / Double / Triple / Quadruple
 
 1.7. Checkbox control to accept the data protection policy
 
-1.8. A form control that includes all input data controls in the previous point and sends the page to a formValidation.php file when the user click on the submit button. Using the right method to not showing all parameters in the url.
+1.8. A form control that includes all input data controls in the previous points and sends the page to a formValidation.php file when the user click on the submit button. Using the right method to not showing all parameters in the url.
 
 ## Y otro archivo formValidation.php que se encarga de:
 
