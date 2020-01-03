@@ -24,7 +24,7 @@ Single / King size / Double / Triple / Quadruple
 
 1.7. Checkbox control to accept the data protection policy
 
-1.8. A form control that includes all input data controls in the previous points and sends the page to a formValidation.php file when the user click on the submit button. Using the right method to not showing all parameters in the url.
+1.8. A form control that includes all input data controls in the previous points and sends the page to a formValidation.php when the user click on the submit button. Using the POST method to not showing all parameters in the url.
 
 ## Y otro archivo formValidation.php que se encarga de:
 
