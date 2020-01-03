@@ -30,7 +30,7 @@ Single / King size / Double / Triple / Quadruple
 
 2.1. All controls are compulsory. ok
 
-2.2. Client has to type 2 surnames  //falta
+2.2. Client has to type 2 surnames  ok
 
 2.3. Client has to type numbers in the controls that required it. Also it cannot be characters in controls where the client has to type numbers. ok
 
