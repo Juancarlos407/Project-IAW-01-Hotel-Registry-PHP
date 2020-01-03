@@ -6,9 +6,9 @@ Este proyecto está destinado a crear un form que es validado, escrito en códig
 
 1.1. Window title with the hotel name
 
-1.2. Title in the <head> section
+1.2. Title in the head section
 
-1.3. Title in the <body> section
+1.3. Title in the body section
 
 1.4. text controls to input in the system:
 
