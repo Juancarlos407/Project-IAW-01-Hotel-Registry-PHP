@@ -31,7 +31,7 @@
 			<br>
 			<label for="age">Age</label>
 			<br>
-			<input type"integer" name="age" min="1" max="99">
+			<input type="number" name="age" id="age" min="1">
 
 			<br>
 			<label for="email">Email</label>
@@ -45,7 +45,7 @@
 		  <br>
 			<label for="amount">Amount</label>
 			<br>
-      <input type="number" name="subject" id="subject">
+      <input type="number" name="subject" id="subject" min="1">
 			<br>
 			<p>
 
