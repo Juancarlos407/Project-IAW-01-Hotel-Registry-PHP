@@ -34,9 +34,9 @@ Single / King size / Double / Triple / Quadruple
 
 2.3. Client has to type numbers in the controls that required it. Also it cannot be characters in controls where the client has to type numbers. ok
 
-2.4. Date when the client check in has to be later than today //falta
+2.4. Date when the client check in has to be later than today ok
 
-2.5. Date when the client check out has to be later than check in date //falta
+2.5. Date when the client check out has to be later than check in date ok
 
 2.6. Deposit has to be greater than 100 ok
 
