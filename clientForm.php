@@ -50,25 +50,15 @@
 			<br>
 			<p>
 
-
-
-
-<!--Pendientes de trabajo-->
-
 			<label for="checkin">Check in</label>
 			<br>
-			<input type="date" id="checkin" name"checkin" value="2020-01-01"
-			min="2020-01-01" max"2020-12-31">
+			<input type="date" name="date" id="date">
 
 			<br>
 
 			<label for="checkout">Check out</label>
 			<br>
-			<input type="date" id="checkout" name"checkout" value="2020-01-02"
-			min="2020-01-02" max"2020-12-31">
-
-
-
+			<input type="date" name="dateout" id="dateout">
 
 			<br>
 			<p>
@@ -94,6 +84,8 @@
 			<label for="policy">*I accept the <a href="dataPolicy.php">data protection policy</a></label>
 			<input type="checkbox" name="policy" required>
 			<input type="submit" value="submit">
+
+      <input type='hidden' name="hoy" id='hoy' value='<?php echo date('Y-m-d');?>'>
 
 </form>
 </body>
