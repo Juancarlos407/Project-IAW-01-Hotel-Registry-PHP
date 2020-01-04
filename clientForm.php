@@ -16,9 +16,9 @@
 			Register to become a client
 			</h1>
 
-		  <form action="formValidation.php" method="POST"> <!--Utilizamos POST para ocultar los datos en la URL-->
+		        <form action="formValidation.php" method="POST"> <!--Utilizamos POST para ocultar los datos en la URL-->
 
-      <br>
+                        <br>
 			<label for="name">Name</label>
 			<br>
 			<input type="text" name="name">
@@ -43,10 +43,10 @@
 			<br>
 			<input type="text" name="country">
 
-		  <br>
+	           	<br>
 			<label for="amount">Amount</label>
 			<br>
-      <input type="number" name="subject" id="subject" min="1">
+                        <input type="number" name="subject" id="subject" min="1">
 			<br>
 			<p>
 
@@ -63,9 +63,9 @@
 			<br>
 			<p>
 			<label for="gender">Gender</label>
-			<br>
-      <input type = "radio" name = "gender" value = "female">Female
-      <input type = "radio" name = "gender" value = "male">Male
+	 		<br>
+                        <input type = "radio" name = "gender" value = "female">Female
+                        <input type = "radio" name = "gender" value = "male">Male
 			</select>
 
 			<br>
@@ -85,7 +85,7 @@
 			<input type="checkbox" name="policy" required>
 			<input type="submit" value="submit">
 
-      <input type='hidden' name="hoy" id='hoy' value='<?php echo date('Y-m-d');?>'>
+                        <input type='hidden' name="hoy" id='hoy' value='<?php echo date('Y-m-d');?>'>
 
 </form>
 </body>
